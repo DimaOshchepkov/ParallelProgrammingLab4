@@ -71,8 +71,8 @@ void calculatorThread(const string& outputFilename) {
 }
 
 int main() {
-    string inputFilename = "C:\\MyStuff\\Programming\\ParallelProgramming\\Lab4\\input.txt";
-    string outputFilename = "C:\\MyStuff\\Programming\\ParallelProgramming\\Lab4\\output.txt";
+    string inputFilename = "C:\\Programming\\ParallelProgramming\\ParallelProgrammingLab4\\input.txt";
+    string outputFilename = "C:\\Programming\\ParallelProgramming\\ParallelProgrammingLab4\\output.txt";
 
     // Create threads
     thread reader(readerThread, inputFilename);
